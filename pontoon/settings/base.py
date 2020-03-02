@@ -753,7 +753,7 @@ SOCIALACCOUNT_ENABLED = True
 SOCIALACCOUNT_ADAPTER = "pontoon.base.adapter.PontoonSocialAdapter"
 
 # Supported values: 'django', 'fxa', 'github', 'gitlab', 'google'
-AUTHENTICATION_METHOD = os.environ.get("AUTHENTICATION_METHOD", "django")
+AUTHENTICATION_METHOD = os.environ.get("AUTHENTICATION_METHOD", "github")
 
 
 def account_username(user):
